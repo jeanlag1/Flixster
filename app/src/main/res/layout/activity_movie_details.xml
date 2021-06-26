@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MovieDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitleD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imPoster"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="299dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="cursive"
+        android:textAlignment="viewStart"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold|italic"
+        tools:text="Fast and Furious" />
+
+    <TextView
+        android:id="@+id/tvOverviewD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLang"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="italic"
+        tools:text="Overview" />
+
+    <RatingBar
+        android:id="@+id/rbVoteAverage"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleD"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="5dp"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <ImageView
+        android:id="@+id/imPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="146dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvVotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleD"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/rbVoteAverage"
+        android:text="TextView"
+        tools:text="123 votes" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvLang"
+        android:layout_below="@+id/rbVoteAverage"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toEndOf="@+id/imPoster"
+        android:text="Released: 2017-03-23 "
+        tools:text="Released: 2017-03-23 " />
+
+    <TextView
+        android:id="@+id/tvLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbVoteAverage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Language: en"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        tools:text="Language: en" />
+
+    <TextView
+        android:id="@+id/tvTrailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOverviewD"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Trailer:"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imTrailer"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTrailer"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="67dp"
+        android:layout_height="93dp"
+        android:layout_alignStart="@+id/imTrailer"
+        android:layout_alignTop="@+id/imTrailer"
+        android:layout_alignEnd="@+id/imTrailer"
+        android:layout_alignBottom="@+id/imTrailer"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="17dp"
+        android:tint="@color/orange"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+
+</RelativeLayout>
