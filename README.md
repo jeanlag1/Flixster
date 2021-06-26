@@ -24,7 +24,8 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Added extra movie details such as release date, original language, vote counts,
+* [x] Added a "play" image on top of backposter image to make it more user-friendly
 
 ## Video Walkthrough
 
