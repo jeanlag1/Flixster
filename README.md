@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='walkthroughSmalll.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='LanscapeView.gif' title='Landscape' width='300' alt='Video Walkthrough' />
+<img src='LanscapeView.gif' title='Landscape' height='300' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
